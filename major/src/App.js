@@ -5,12 +5,14 @@ import FindAJob from './pages/FindAJob';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Header from './components/Header';
+
 // import Login from './components/Login';
 
 const App = () => {
   return (
     <Router>
       <Header />
+      <Home />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/find-a-job" element={<FindAJob />} />

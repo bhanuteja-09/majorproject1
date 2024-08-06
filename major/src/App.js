@@ -6,6 +6,7 @@ import FindAJob from './pages/FindAJob';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import './App.css'; // Import global CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // const DebugLocation = () => {
 //   const location = useLocation();

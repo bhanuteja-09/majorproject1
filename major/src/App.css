@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+/* src/App.css */
+
+/* Ensure your content doesn’t get hidden behind the fixed header */
+main {
+  margin-top: 70px; /* Adjust based on the height of your Header */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Body padding to account for the fixed navbar */
+body {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Ensure the header is positioned correctly and content does not overlap */
+.header-navbar {
+  position: fixed;
+  top: 0;
+  width: 98%;
+  z-index: 1000; /* Keeps the header above other content */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Add padding to the top of the main content to avoid overlap with the header */
+.app-content {
+  padding-top: 56px; /* Adjust this based on the height of your header */
 }
 
-.App-link {
-  color: #61dafb;
+/* Additional CSS */
+.jumbotron {
+  background-color: #f8f9fa;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.text-danger {
+  color: #dc3545;
+}
+
+/* Responsive design for different screen sizes */
+@media (max-width: 767px) {
+  .text-md-left, .text-md-right {
+    text-align: center;
   }
 }

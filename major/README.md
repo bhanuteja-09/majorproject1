@@ -13,6 +13,8 @@ A React application for finding jobs.
 ### 1. Make Changes Locally
 - Update your project files with the desired changes.
 
+### Go to the hirecheck1 folder do the below steps
+
 ### 2. Commit Changes
 
 1. **Check Status**:
@@ -28,15 +30,22 @@ A React application for finding jobs.
    - `git commit -m "Describe your changes"`
 
 5. **Push Changes to GitHub**:
-   - `git push -u origin2 master` (or `main` if that's your default branch)
+   - `git push -u origin master` (or `main` if that's your default branch)
 
-### 3. Build and Deploy
+
+
+### 3.For  Build and Deploy
+### Got to hirecheck1/major do the build and deploy steps
 
 1. **Build the Project**:
    - `npm run build`
 
 2. **Deploy to GitHub Pages**:
    - `npm run deploy`
+
+
+Note: Git push should be in hirecheck1 folder and build and deploy should be in hirecheck1/major 
+
 
 ### 4. Verify Deployment
 

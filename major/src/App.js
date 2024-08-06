@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import FindAJob from './pages/FindAJob';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Header from './components/Register';
+import Header from './components/Header';
 // import Login from './components/Login';
 
 const App = () => {

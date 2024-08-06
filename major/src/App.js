@@ -4,12 +4,13 @@ import Home from './pages/Home';
 import FindAJob from './pages/FindAJob';
 import About from './pages/About';
 import Contact from './pages/Contact';
-// import Register from './components/Register';
+import Header from './components/Register';
 // import Login from './components/Login';
 
 const App = () => {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/find-a-job" element={<FindAJob />} />
